@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Poppins,sans-serif;
+}
+
+footer{
+    width:100%;
+    padding:25px 8%;
+    background:#613b3b3f;
+    border-top:2px solid #b60000;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+footer p{
+    margin:0;
+    color:#d9d9d9;
+    font-size:15px;
+    font-weight:400;
+}
+
+footer a{
+    color:#ff2d2d;
+    text-decoration:none;
+    font-weight:600;
+    transition:.3s;
+}
+
+footer a:hover{
+    color:#ffffff;
+}
+
+body{
+
+    background:#050505;
+    color:white;
+    overflow-x:hidden;
+
+}
+
+.background{
+
+    position:fixed;
+    inset:0;
+
+    background:
+    radial-gradient(circle at top,#3a0000,transparent 40%),
+    #050505;
+
+    z-index:-1;
+
+}
+
+.hero{
+
+    width:100%;
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+}
+
+.logo{
+
+    width:260px;
+    margin-bottom:40px;
+
+}
+
+h1{
+
+    font-size:58px;
+    text-align:center;
+    font-weight:800;
+    line-height:1.1;
+
+}
+
+h1 span{
+
+    color:#ff2d2d;
+
+}
+
+p{
+
+    font-size:24px;
+    color:#d9d9d9;
+    margin-top:25px;
+    text-align:center;
+    max-width:900px;
+
+}
+
+.banner{
+
+    width:100%;
+    max-width:950px;
+
+    margin-top:50px;
+
+    border-radius:25px;
+
+    box-shadow:0 0 80px rgba(255,0,0,.35);
+
+}
+
+.buttons{
+
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+
+    width:100%;
+    max-width:750px;
+
+    margin-top:50px;
+
+}
+
+.btn{
+
+    text-decoration:none;
+
+    padding:22px;
+
+    text-align:center;
+
+    border-radius:15px;
+
+    font-size:22px;
+
+    font-weight:700;
+
+    transition:.3s;
+
+}
+
+.whatsapp{
+
+    background:#ff2b2b;
+    color:white;
+
+}
+
+.instagram{
+
+    background:white;
+    color:#111;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-5px);
+
+    box-shadow:0 15px 35px rgba(255,0,0,.45);
+
+}
+
+.qrcode{
+
+    margin-top:60px;
+
+    background:#111;
+
+    border:2px solid #ff2b2b;
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+}
+
+.qrcode h2{
+
+    color:#ff2d2d;
+    margin-bottom:20px;
+
+}
+
+.qrcode img{
+
+    width:250px;
+
+    background:white;
+
+    padding:15px;
+
+    border-radius:20px;
+
+}
+
+@media(max-width:768px){
+
+h1{
+
+font-size:40px;
+
+}
+
+p{
+
+font-size:18px;
+
+}
+
+.btn{
+
+font-size:18px;
+
+}
+
+.banner{
+
+margin-top:30px;
+
+}
+
+}
